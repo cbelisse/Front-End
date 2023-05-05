@@ -1,0 +1,29 @@
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+p{
+    font-size: 40pt;
+}
+/*classe de Css*/
+.titulo1{
+    color: chartreuse;
+
+}
+.azul{
+color: blue;
+}
+.vermelho{
+color: red;
+}
+.verde{
+color: green;
+}
+body{
+    background-image: url(../img/plano\ de\ fundo.jpg);
+}
+img{
+    width: 50%;
+    padding: 10px; 
+    
+}
