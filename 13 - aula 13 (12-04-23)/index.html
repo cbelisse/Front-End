@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Deixa compatível com o navegador Edge-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Responsividade na visualização em telas diferentes. scale 1.0 significa 100% da página-->
+    <title>Aula 13 - Bootstrap</title>
+    <!--CDN bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</head>
+<body>
+        <!--Container com 100% da largura da tela TOPO da página-->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-danger">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">CLEBER BELISSE</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="www.belisse.com.br">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Meu Menu</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <img src="img/maldivas1920.jpg" class="img-fluid" alt="Praia">
+    </div>
+    <!--Container com 80% da largura da tela CONTEÚDO da página-->
+    <div class="container bg-primary">
+        <h1>Página com Bootstrap</h1>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col-sm-8">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aperiam corporis reiciendis eum quam rerum error excepturi? Veniam fugiat repellendus quas aspernatur incidunt laboriosam ea voluptatum sapiente, maiores, nisi possimus?</p>
+              </div>
+              <div class="col-sm-2">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur totam sunt natus impedit quis aut quos dignissimos laboriosam perferendis omnis, corrupti voluptatum ab voluptas? Nulla aspernatur molestias dolores tenetur voluptas.</p>
+              </div>
+              <div class="col-sm-2">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, optio quas. Mollitia id ex facilis quia exercitationem animi tempore at maxime quas, iusto, vero sed sunt libero reiciendis saepe esse?</p>
+              </div>
+            </div>
+          </div>
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/1 - praia640.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/2 - praia640.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/3 - praia640.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/4 - praia640.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <table class="table table-success table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr> 
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="row">
+            <div class="col-md-4">
+                <img src="img/5 - praia640.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <h1 class="display-5 text-center">Título da Coluna</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, aspernatur doloremque consequatur tempora deleniti dolores dolore fugiat, commodi libero quibusdam inventore aperiam modi laudantium debitis ex quidem similique corrupti iure!</p>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/4 - praia640.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/5 - praia640.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col-md">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/2 - praia640.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="https://www.youtube.com" class="btn btn-primary" target="_blank">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+    </div>
+    <!--Container com 100% da largura da tela RODAPÉ da página-->
+    <div class="container-fluid bg-success text-center">
+        <p>BELISSE CORPORATE Design for Web | Copyright © 2023.</p>
+    </div>
+</body>
+</html>
