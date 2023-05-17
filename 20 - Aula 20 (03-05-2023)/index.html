@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 20 - Switch Case</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/exemplo.js"></script>
+</head>
+<body>
+    <!--Topo-->
+    <div class="container-fluid">
+        <h1>Logo</h1>
+        <ul class="menutopo">
+            <li>Home</li>
+            <li>Página 1</li>
+            <li>Contatos</li>
+        </ul>
+    </div>
+    <!--Conteúdo-->
+    <div class="container">
+        <h2>Lógica Condicional Composta com Switch Case</h2>
+        <fieldset>
+            <form action="">
+                <label for="">Informe o n° correspondente do dia: </label>
+                <br>
+                <input type="number" name="dia" min="1" max="7">
+                <br>
+                <input type="button" value="ESCOLHA" onclick="diaSemana(dia.value);">
+                <br>
+                <input type="text" name="" id="semana" placeholder="Dia da semana" readonly >
+
+            </form>
+        </fieldset>
+
+    </div>
+    <!--Rodapé-->
+    <div class="container-fluid">
+        <p><a href="">BELISSE CORPORATE Design for Web | Copyright © 2023. </a></p>
+    </div>    
+</body>
+</html>
+
+
