@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARRAY ( Variáveis Indexiáveis)</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/array.js"></script>
+</head>
+<body>
+    <!--topo-->
+   <div class="container-fluid">
+    <h1>Logo</h1>
+   </div>
+   <!--conteúdo-->
+   <div class="container">
+    <h2>Arrays</h2>
+    <p>Os Arrays são váriaveis Indexiáveis ou Super Variáveis.</p>
+        <div class="row">
+            
+                <div class="col">
+                <h3>Exemplo de Vetor</h3>
+                <form action="">
+                    <label for="">Clique no botão abaixo:</label>
+                    <br>
+                    <input type="button" value="VETOR 1" onclick="vetor1();">
+                </form>
+            </div>
+            <div class="col">
+                <h3>Exemplo de Vetor com FOR</h3>
+                <form action="">
+                    <label for="">Clique para inserir as cores</label>
+                    <br>
+                    <input type="button" value="CORES" onclick="vetor2();">
+                    </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <fieldset>
+                <h3>Exemplo de vetor com for 2</h3>
+                    <form action="">
+                        <label for="">QNT Frutas: </label>
+                        <input type="number" name="frutas">
+                        <br>
+                        <input type="button" value="ENVIAR" onclick="vetor3(frutas.value)">
+                        <input type="reset" value="LIMPAR">
+                    </form>            
+            </div>
+            <div class="col">
+                <h3>Senha do Banco Belisse</h3>
+                
+                    <form action="">
+                        <label for="">Nome: </label>
+                        <input type="text" name="nome">
+                        <br>
+                        <label for="">Prioridade</label>
+                        <input type="number" name="pos" min="1" max="2">
+                        <br>
+                        <input type="button" value="FILA" onclick="atendimento(nome.value,pos.value);">
+                        <input type="button" value="MOSTRAR VEZ" onclick="pessoaVez();">
+
+                    </form>
+                </fieldset>                
+            </div>
+        </div>
+            <div class="row">
+                <div class="col">
+                    <h3>Exemplo de remoção de dados do começo</h3>
+                    <form action="">
+                        <label for="">Informe nome: </label>
+                        <input type="text" name="nome">
+                        <input type="number" name="qtd">
+                        <br>
+                        <input type="button" value="ENVIAR" onclick="lista(nome.value, qtd.value);">
+                        <input type="button" value="LIMPAR O PRIMEIRO" onclick="primeiro();">
+                        <input type="button" value="LIMPAR O ÚLTIMO" onclick="ultimo()">
+                    </form>
+
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+   </div>
+   <!--rodapé-->
+   <div class="container-fluid">
+        <p><a href="">BELISSE CORPORATE Design for Web</a> | Copyright © 2023.</p>
+   </div> 
+</body>
+</html>

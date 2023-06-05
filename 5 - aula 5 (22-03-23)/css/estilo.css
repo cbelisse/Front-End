@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Poppins:wght@500&family=Quicksand&family=Roboto&family=Rock+Salt&display=swap');
+
+html,body{
+    padding: 0px; /*espaço interno do container*/
+    margin: 0px; /*espaço externo do container*/
+    /*height: 100%; /*definindo altura padrão da página*/
+    height: 100%;
+}
+a{
+    text-decoration: none; /*Tirando o formato de link  da tag A*/
+    color: white;
+}
+.apreto{
+    color:black
+}
+h1{
+    font-family: 'bebas neue';
+    font-size: 30px;
+    border-bottom: #E15873 5px solid; /*Sempre inserir a espessura e o solid*/
+    margin: 15px 30px; /*Distância das margens*/
+}
+h2{
+    font-family: 'rock salt';
+    color: #DC143C;
+    font-size: 25px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    font-family: 'quicksand';
+    font-size: 18px;
+    text-align: justify;
+}
+.menu{
+    background-color: #DC143C;
+    color: white;
+    display: flex; /*Todos os objetos verticais ele muda para horizontal*/
+    justify-content: space-between; /*Espaço entre os objetos dentro do menu*/
+    font-size: 20px;
+    font-family: 'Anton';
+    align-items: center; /*Alinha os objetos em relação ao centro do menu*/
+    padding: 12px; /*Distância dos objetos em relação a margem*/
+}
+.paginas{  /*Criada esta classe para editar os itens do menu*/
+    display: flex;
+    list-style: none; /*Retira os pontos criados junto com a lista*/
+}
+.paginas li{  /*Mexe somente nas listas que estão dentro das páginas, por isso inserimos eles depois*/
+    margin-left: 10px; /*Espaça do lado esquerdo de cada item do menu*/
+
+}
+.paginas li a{ /*Criando uma área maior para clicar nos itens do menu */
+    padding: 10px;
+}
+.topo{
+    width: 100%;
+    height: 40%;
+}
+.bg1{
+    background-image: url(../img/emotions-3615255_1920.jpg);
+    background-size: cover;
+}
+.bg2{
+    background-image: url(../img/banner-2143727_1920.jpg);
+    background-size: cover;
+}
+.bg3{
+    background-image: url(../img/sunset-1645103_1920.jpg);
+    background-size: cover;
+}
+
+.conteudo{
+    width: 80%;
+    margin: 0 auto; /*Espaçamento pra fora de algum objeto, primeiro numero top e bottom segundo (auto) esq e dir > se nao colocar apenas um valor aplica a todos */
+    background-color: azure;
+}
+.rodape{
+    width: 100%;
+    height: 10%;
+    background-color: #DC143C;
+    color:white;
+    text-align: center;
+    padding: 2% 0;
+    font-family: 'roboto';
+    font-size: 18px;
+}
+/*Classes de linhas e colunas*/
+.row{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+/*Para colunas dentro das linhas (row)*/
+.row .col{
+    width: 50%;
+    margin: 15px;
+}
+/*Para image img*/ 
+.row .col img{
+    width: 100%;
+}
+.logotipo{
+    font-family: 'Arial';
+    color:white;
+    font-size: 20px;
+}

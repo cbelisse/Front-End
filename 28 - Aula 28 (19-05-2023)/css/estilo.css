@@ -1,0 +1,38 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: aquamarine;
+}
+.container-fluid{
+    width: 100%;
+    background-color: brown;
+    padding: 30px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 25 px;
+    background-color:lightcoral;
+}
+.row{
+    display: flex;
+}
+.col{
+    padding: 20px;
+    width: 50%;
+}
+.container-fluid p{
+    text-align: center;
+    color: white;
+    
+}
+.teste{
+    margin-left: 5%;    
+}

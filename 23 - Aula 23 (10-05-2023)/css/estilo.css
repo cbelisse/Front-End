@@ -1,0 +1,45 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: gold;
+}
+
+.container-fluid {
+    width: 100%;
+    background-color: darkgreen;
+    padding: 10px;
+}
+
+.container-fluid p {
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(170, 170, 201);
+    padding: 25px;
+}
+
+.row {
+    display: flex;
+    padding: 20px;
+}
+
+.col {
+    width: 50%;
+    padding: 20px;
+}

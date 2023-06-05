@@ -1,0 +1,58 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: aqua;
+}
+.container-fluid{
+    width: 100%;
+    padding: 30px;
+    background-color: darkgreen;
+
+}
+.container{
+    width: 80%;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: lightgreen;
+}
+.row{
+    display: flex;
+    padding: 20px;
+}
+.col{
+    padding: 20px;
+    width: 50%;
+  }
+  /*Para inserir as bordas da tabela*/
+  table,tr,td{ 
+    border: solid 2px black;
+    text-align: center;
+  }
+.rowrodape{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+.rowrodape p{
+    transform: scale(1.0);
+    display: flex;
+  }
+  .rowrodape img{
+        width: 50 px;
+        height: 50px;
+  }
+  .rowrodape:hover img{
+    transform: scale(1.5);
+  }
+  .rowrodape:hover .meusite{
+    transform: scale(1.5);  
+  }
+  

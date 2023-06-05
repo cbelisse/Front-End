@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/objeto.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--topo-->  
+    <div class="container-fluid">
+            <h1>logo</h1>       
+    </div>
+       <!--Conteudo-->     
+    <div class="container">
+        <h2>REVISAO ARRAY</h2>
+        <div class="row">
+            <div class="col">
+                <fieldset>
+                    <form action="">
+                        <input type="button" value="ARRAY" onclick="exemplo1();">
+                    </form>
+                </fieldset>
+
+            </div>
+            <div class="col">
+                <h3>Formulario para preencher vetor</h3>
+                <fieldset>
+                    <form action="">
+                        <h3>Cadastrar:</h3>
+                        <label for="">Informe quantos nomes quer preencher</label>
+                        <br>
+                        <input type="number" name="nomes" id="" min="0">
+                        <br>
+                        <input type="button" value="Cadastrar" onclick="enviar(nomes.value);">
+                        <br>
+                        <h3>Consultar:</h3>
+                        <label for="">Resultado</label>
+                        <input type="text" name="" id="nome" readonly>
+                        <br>
+                        <label for="">Escolha o valor a ser mostrado:</label>
+                        <br>
+                        <input type="number" name="num1" min="1" >
+                        <br>
+                        <input type="button" value="Ver Nome" onclick="verNome(num1.value);">
+                    </form>
+                </fieldset>
+                
+            </div>
+            <h2>OBJETOS</h2>
+                <div class="row">
+                    <div class="col">
+                        <fieldset>
+                            <form action="">
+                                <label for="">Clique aqui: </label>
+                                <br>
+                                <input type="button" value="OBJETO" onclick="objeto();">                                   
+                            </form>
+                        </fieldset>
+
+                    </div>
+                    <div class="col">
+                        <fieldset>
+                            <form action="">
+                                <label for="">Curso:</label>
+                                <input type="text" name="curso">
+                                <br>
+                                <label for="">Tipo:</label>
+                                <input type="text" name="tipo" id="">
+                                <br>
+                                <label for="">QTD Alunos:</label>
+                                <input type="number" name="qtd" id="">
+                                <br>
+                                <label for="">Valor:</label>
+                                <input type="number" name="valor" id="">
+                                <br>
+                                <input type="button" value="CADASTRAR" onclick="cadastrar(curso.value,tipo.value,qtd.value,valor.value);">
+                        
+                            </form>
+                        </fieldset>
+
+
+                    </div>
+                </div>
+        </div>
+        
+    </div>
+    <!--Rodape-->
+    <div class="container-fluid-rodape">
+        <p><a href="">Edu web design.</a>|copyrirth © 2023</p>
+        
+    </div>
+    
+</body>
+</html>

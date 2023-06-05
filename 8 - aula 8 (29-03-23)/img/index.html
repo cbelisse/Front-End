@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 5 - DIVs e Links</title>
+    <!--link é a TAG de css externo-->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <!--div do topo da página (menus, logo, etc)-->
+    <div class="topo bg1"> <!--Neste caso temos duas classes para trabalhar no CSS-->
+	<header class="menu">
+        <p class="logotipo">LOGO</p>
+        <!--NAV tag para menus de navegação-->
+        <nav>
+            <ul class="paginas">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+	</header>
+    </div>
+    <!--div do conteúdo (imagens, textos, botões)-->
+    <div class="conteudo">
+        <h1>Página 1</h1>
+        <div class="row"> <!--Criando uma linha dentro do container-->
+            <div class="col"> <!--Criando duas colunas dentro do linha acima container-->
+                <img src="../5 - aula 5 (22-03-23)/img/lion-g2eb131ec0_640.jpg" alt="">
+            </div>
+            <div class="col">
+                <h2>Lorem ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et non rem velit nobis reiciendis, saepe vero odit quos ratione, laudantium, magni blanditiis! Modi, eos veniam hic accusamus quo quam quia?</p>
+            </div>
+        </div>
+        <!--Linha 2 com 3 colunas-->
+        <div class="row">
+            <div class="col">
+                <h2>Título da Segunda Linha</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas maxime minima veniam aperiam praesentium! Commodi deleniti assumenda voluptatem necessitatibus natus veritatis error cupiditate, facilis, sunt quasi, sed ea fugit repudiandae!</p>
+
+            </div>
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, dolorum sit. Qui laborum ab impedit, dignissimos aut cum ipsam quaerat ducimus voluptatem maiores ipsa atque distinctio, repudiandae laudantium veniam pariatur!</p>
+
+            </div>
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facilis ipsa labore, unde explicabo asperiores accusamus deleniti vel blanditiis corporis omnis! Quidem praesentium laborum molestias sint! Sequi nulla voluptate unde.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img/CSS.png" alt="" width="100" height="300">
+                <h2>CSS</h2>
+                <h3>Cacading Style Sheet</h3>
+                <p>CSS é a sigla para o termo em inglês Cascading Style Sheets que, traduzido para o português, significa Folha de Estilo em Cascatas. O CSS é fácil de aprender e entender e é facilmente utilizado com a linguagens de marcação HTML. </p>
+            </div>
+            <div class="col">
+            <img src="img/HTML.png" alt="" width="100" height="300">
+            <h2>HTML5</h2>
+            <h3>Hypertext Markup Language</h3>
+            <p>HTML5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet, originalmente proposto por Opera Software. Estamos na quinta versão da linguagem HTML
+            </p>
+            </div>
+            <div class="col">
+                <img src="img/JS.png" alt="" width="100" height="300">
+                <h2>JS</h2>
+                <h3>JavaScript</h3>
+                <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.</p>
+            </div>
+
+       </div>
+ 
+    <!--div do rodapé da página (menus, logo, etc)-->
+    <div class="rodape">
+	<footer>
+        <p><center><a href="https://google.com"> BELISSE CORPORATE </a>| Todos os Direitos Reservados © 2023.</center></p>
+	</footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 21 - Switch - And - OR</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/xuxa.js"></script>
+</head>
+<body>
+    <!--TOPO-->
+    <div class="container-fluid">
+        <h1>Logo</h1>
+    </div>
+    
+
+
+    <div class="container">
+        <h2>Exemplos de Switch Case</h2>
+        <div class="row">
+            <div class="col">
+                <h3>Exemplo 1</h3>
+                <fieldset><!--Coloca as bordas em volta do formulário-->
+                    <form action="">
+                        <label for="">Digite uma letra:</label>
+                        <input type="text" name="letra" placeholder="de A até Z">
+                        <br>
+                        <input type="button" value="ENVIAR" onclick="alfabeto(letra.value);">
+                        <br>
+                        <label for="">Palavra:</label>
+                        <input type="text" id="resposta" readonly>
+                    </form>
+                </fieldset>
+                <div class="col">
+                    <p>Página 2</p>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Exemplo 2</h3>
+                <fieldset>
+                    <form action="">
+                        <label for="">Mês</label>
+                        <input type="number" name="mes" placeholder="1 a 12">
+                        <br>
+                        <input type="button" value="ESCOLHA" onclick="mesAno(mes.value);">
+                        <br>
+                        <label for="">Opção:</label>
+                        <br>
+                        <input type="text" readonly id="ref">
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+        <h2>Tabela Verdade</h2>
+        <table>
+            <tr><!--Linha-->
+                <!--mesclando 5 colunas dessa linha-->
+                <th colspan="5">AND && (e) OR || (ou) NOT (não) </th>
+            </tr>
+            <tr>
+                <td>Teste 1</td>
+                <td>Teste 2</td>
+                <td>AND</td>
+                <td>OR</td>
+                <td>NOT</td>
+            </tr>
+            <tr>
+                <td>V</td>
+                <td>V</td>
+                <td>V</td>
+                <td>V</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>V</td>
+                <td>F</td>
+                <td>F</td>
+                <td>V</td>
+                <td>V</td>
+            </tr>
+            <tr>
+                <td>F</td>
+                <td>V</td>
+                <td>F</td>
+                <td>V</td>
+                <td>V</td>
+            </tr>
+            <tr>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>V</td>
+            </tr>
+
+        </table>
+        <div class="row">
+            <div class="col">
+                <fieldset>
+                    <h3>Sistema de Login</h3>
+                    <form action="">
+                        <label for="">Usuário:</label>
+                        <br>
+                        <input type="text" name="user">
+                        <br>
+                        <label for="">Senha:</label>
+                        <br>
+                        <input type="password" name="senha">
+                        <br>
+                        <input type="button" value="LOGIN" onclick="login(user.value,senha.value);">
+                        <input type="reset" value="LIMPAR">
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+        
+
+    </div>
+    <div class="container-fluid">
+        <footer>
+            <div class="rowrodape">
+                <p class="meusite"><a href="www.belisse.com.br" target="_blank"><img src="img/insta.png" alt="">BELISSE CORPORATE </a></p> <p>Design for web   | Copyright © 2023.</p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+var valor=0;
+
+function diaSemana(d){
+    valor=parseInt(d);
+    switch(valor){
+        case 1:
+            document.getElementById('semana').value='Domingo';
+        break;
+        case 2:
+            document.getElementById('semana').value='Segunda-feira';
+        break;
+        case 3:
+            document.getElementById('semana').value='Terça-feira';
+        break;
+        case 4:
+            document.getElementById('semana').value='Quarta-feira';
+        break;
+        case 5:
+            document.getElementById('semana').value='Quinta-feira';
+        break;
+        case 6:
+            document.getElementById('semana').value='Sexta-feira';
+        break;
+        default:
+            document.getElementById('semana').value='Sábado';
+        break;
+    }
+}
+
