@@ -1,0 +1,30 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+.telaLogin{
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.login{
+    width: 30%;
+    height: 200px;
+    padding: 30px;
+    margin: 20% auto;
+    background-color: azure;
+}
+input{
+    width: 100%;
+    height: 25px;
+}
+.btn{
+    background-color: deepskyblue;
+    width: 100%;
+    height: 50px;
+    border-radius: 5%;
+}
